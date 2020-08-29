@@ -10,7 +10,53 @@
     <title>Sesion35!</title>
   </head>
   <body>
-    
+    <div class="container-fluid bg-secondary">
+        <div class="row col-8 p-2">
+            <form class="form-inline" action="/action_page.php">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" placeholder="Enter email" id="email">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                <div class="form-check">
+                <label class="form-check-label">
+                 <input class="form-check-input" type="checkbox"> Remember me
+                </label>
+                </div>
+                <button type="submit" class="btn btn-warning">Submit</button>
+            </form>
+        </div>
+        <div class="row p-2">
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-danger col-3" data-toggle="modal" data-target="#myModal">
+                Modal
+            </button>
+            
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h4 class="modal-title">Titulo del modal</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                        Este es un modal
+                        </div>
+                
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar modal</button>
+                        </div>
+                
+                    </div>
+                </div>
+            </div> 
+        </div>
+     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
