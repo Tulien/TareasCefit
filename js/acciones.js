@@ -1,16 +1,12 @@
-var btn0 = document.getElementById('btnAgregar');
-var btn1 = document.getElementById("btnEditar");
-var btn2 = document.getElementById("btnEliminar");
-
+var btn0 = document.getElementById("btnAgregar");
+var tabla = document.getElementById("tablaRegistros");
 
 btn0.addEventListener("click", function(){
-    alert ("Aqui agregaras un nuevo archivo :D");
+    var codi =  document.getElementById("txtCodigo");
+    var nom  =  document.getElementById("txtNombre");
+    var tel =  document.getElementById("txtTelefono");
+    var muni =  document.getElementById("txtMunicipio");
+
+   tabla.insertRow(-1).innerHTML ="<td></td><td></td><td></td><td></td><td></td>" ;
 });
 
-btn1.addEventListener("click", function(){
-    alert ("Aqui editaras el archivo seleccionado :D");
-});
-
-btn2.addEventListener("click", function(){
-    alert ("Aqui eliminaras el archivo seleccionado :D");
-});
