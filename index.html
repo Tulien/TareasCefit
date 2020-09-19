@@ -163,10 +163,10 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <div class="col">
             <div class="col-12 p-3">
-                <table class="table table-dark table-hover table-bordered col-12 text-center" id="tablaRegistros">
+                <table class="table table-dark table-hover table-bordered text-center col-12 shadow-lg table-responsive" id="tablaRegistros">
                     <thead>
                         <tr class="bg-warning text-light">
                             <th>CEDULA</th>
@@ -215,6 +215,9 @@
                     </tbody>
                 </table>
             </div>
+        </div>
+        <div class="container-fluid col-12">
+                <button class="btn-success rounded-circle fixed-bottom p-4 shadow-lg"  data-toggle="modal" data-target="#registro" onclick="nuevaFila()"><i class="far fa-file-alt fa-2x"> Agregar</i></button>
         </div>
     </div>
     <script src="js/acciones.js"></script>
