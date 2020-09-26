@@ -2,8 +2,7 @@
     margin: 0px;
 }
 
-.bar{
-    width: 100%;
-    height: 50px;
-    background-color: black;
+#navbar{
+    height: 30px;
+    background: linear-gradient(to right, rgb(17, 156, 248), rgb(104, 223, 8));
 }
