@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/videoFondo.css">
+		<link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+		<link rel="stylesheet" type="text/css" href="css/estiloCarrusel.css">
+		<link rel="stylesheet" type="text/css" href="css/Chart.min.css">
+		<link rel="stylesheet" type="text/css" href="css/simple-calendar.css">
+		<title>Document</title>
+	</head>
+	<body>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/owlcarousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/Chart.bundle.min.js"></script>
+		<script type="text/javascript" src="js/grafico.js"></script>
+		<script type="text/javascript" src="js/jquery.simple-calendar.min.js"></script>
+		<script type="text/javascript" src="js/pb-calendario.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.owl-carousel').owlCarousel({
+				    loop:false,
+				    margin:10,
+				    nav:true,
+				    autoplay:true,
+				    responsive:{
+				        0:{
+				            items:1
+				        },
+				        600:{
+				            items:3
+				        },
+				        1000:{
+				            items:5
+				        }
+				    }
+				})
+			});			
+		</script>
+	</body>
+</html>

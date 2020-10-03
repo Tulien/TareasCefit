@@ -1,0 +1,12 @@
+.cuadro{
+	width: 250px;
+	height: 250px;
+	background-color: rgba(32, 221, 158, 0.6);
+	margin-top: 100px;
+	border-radius: 10px;
+
+}
+.imagenCaja{
+	width: 250px;
+	height: 250px;
+}
